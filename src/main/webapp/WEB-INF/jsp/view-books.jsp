@@ -4,10 +4,20 @@
     <head>
         <title>View Books</title>
         <link href="<c:url value="/css/common.css"/>" rel="stylesheet" type="text/css">
+
+
+        <style>
+          .t-header {
+            padding: 10px;
+            color: white;
+            background-color: black;
+          }
+
+        </style>
     </head>
     <body>
         <table>
-            <thead>
+            <thead class="t-header">
                 <tr>
                     <th>ISBN</th>
                     <th>Name</th>
